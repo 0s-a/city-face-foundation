@@ -1,0 +1,26 @@
+:root {
+  /* COLORS */
+  --color-primary: #ee5057;
+  --color-secondary: #111;
+  --color-text: #898989;
+  --color-light: #f4f4f4;
+
+  /* FONTS */
+  --font-primary: "Open Sans", Helvetica, Arial, sans-serif;
+  --font-bold: 700;
+  --font-light: 400;
+  --font-size-text: 13px;
+  --font-size-title: 20px;
+  --font-size-section-title: 48px;
+
+  /* SIZE */
+  --size-primary: 25px;
+  --size-double: calc(var(--size-primary) * 2);
+  --size-half: calc(var(--size-primary) / 2);
+
+  --margin-primary: var(--size-primary);
+  --padding-primary: var(--size-primary);
+  --padding-double: var(--size-double);
+  --padding-half: var(--size-half);
+  --height-primary: 120px;
+}
